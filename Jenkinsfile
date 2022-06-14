@@ -8,6 +8,15 @@ pipeline {
                 }
             }
         }
+        stage('Checkout') {
+            steps {
+                script {
+                   sh """
+                   echo hey there prem noob
+                   """
+                }
+            }
+        }
     }
     post {
         success {
