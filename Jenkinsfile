@@ -8,7 +8,7 @@ pipeline {
                 }
             }
         }
-        stage('Checkout') {
+        stage('tun something') {
             steps {
                 script {
                    sh """
