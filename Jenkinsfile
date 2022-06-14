@@ -4,7 +4,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 script {
-                    git credentialsId: 'git-creds', url: 'https://github.com/shankarprem12/terraform.git'
+                   git branch: 'master', git credentialsId: 'git-creds', url: 'https://github.com/shankarprem12/terraform.git'
                 }
             }
         }
