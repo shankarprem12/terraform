@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Run test cases') {
             steps {
-                bat """
+                sh """
                 mvn test allure:report
                 """ 
             }
