@@ -1,6 +1,6 @@
 provider "aws" {
-    access_key = "AKIATI3MPUOPF7TSIWXZ"
-    secret_key = "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"
+    access_key = ""
+    secret_key = ""
     endpoints {
 sts = "https://sts.us-west-1.amazonaws.com/"
 }
